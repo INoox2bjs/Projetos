@@ -1,1 +1,1 @@
-
+Desenvolvimento de um gerador de QR Code utilizando HTML, CSS e JavaScript em um único arquivo. O projeto permite a criação dinâmica de códigos QR a partir de textos ou links inseridos pelo usuário, com geração instantânea no navegador. A aplicação foi construída com foco em manipulação do DOM, integração de biblioteca externa via CDN e estilização responsiva, reforçando conceitos fundamentais de desenvolvimento front-end e lógica em JavaScript.
