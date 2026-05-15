@@ -20,8 +20,8 @@ O projeto utiliza uma biblioteca externa para realizar a criação dos QR Codes 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - Biblioteca:
   - `qrcodejs`
