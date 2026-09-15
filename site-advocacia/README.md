@@ -63,7 +63,7 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 
 ### 👨‍⚖️ Sobre o escritório
 
-![Sobre o escritório](./screenshots/sobre.png)
+![Sobre o escritório](./screenshots/Screenshot_3.png)
 
 ---
 
