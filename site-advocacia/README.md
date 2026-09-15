@@ -89,15 +89,9 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 
 ---
 
-### 💬 Fale Conosco
-
-![Fale Conosco](./screenshots/Screenshot_5.png)
-
----
-
 ### 🔐 Painel administrativo
 
-![Painel administrativo](./screenshots/Screenshot_6.png)
+![Painel administrativo](./screenshots/Screenshot_5.png)
 
 ---
 
