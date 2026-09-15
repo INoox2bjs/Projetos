@@ -6,23 +6,25 @@
 
 ## 📌 Sobre o projeto
 
-O **GN Advocacia Especializada** é um site institucional desenvolvido para um escritório de advocacia, com foco em apresentar seus serviços, áreas de atuação e informações de contato de forma profissional e acessível.
+O **GN Advocacia Especializada** é um projeto de desenvolvimento web criado para apresentar a presença digital de um escritório de advocacia.
 
-A aplicação combina **HTML5, CSS3 e PHP**, além de integração com banco de dados para gerenciamento e processamento de informações.
+O projeto foi desenvolvido com foco em uma interface **profissional, moderna, responsiva e intuitiva**, proporcionando uma experiência adequada em diferentes dispositivos.
 
-O projeto foi desenvolvido como parte do meu **portfólio de desenvolvimento web**, demonstrando conhecimentos em front-end, back-end e banco de dados.
+A aplicação utiliza **HTML5, CSS3, PHP e MySQL**, integrando front-end, back-end e banco de dados.
+
+Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 
 ---
 
 ## ✨ Funcionalidades
 
-- ⚖️ Apresentação da GN Advocacia Especializada
-- 📋 Apresentação das áreas de atuação
-- 👨‍⚖️ Informações sobre o escritório
+- ⚖️ Apresentação do escritório
+- 📋 Áreas de atuação
+- 👨‍⚖️ Informações profissionais
 - 📞 Informações de contato
 - 🗄️ Integração com banco de dados
-- 🔄 Processamento de dados utilizando PHP
-- 📱 Layout responsivo
+- 🔄 Processamento de informações com PHP
+- 📱 Design responsivo
 - 🎨 Interface moderna e organizada
 - 🧭 Navegação intuitiva
 
@@ -45,184 +47,76 @@ O projeto foi desenvolvido como parte do meu **portfólio de desenvolvimento web
 
 ---
 
-## 🏗️ Estrutura da aplicação
+## 📸 Demonstração
 
-```text
-Usuário
-   │
-   ▼
-HTML + CSS
-   │
-   ▼
-PHP
-   │
-   ▼
-MySQL
-   │
-   ▼
-PHP
-   │
-   ▼
-Interface
-```
+### 🏠 Página inicial
+
+![Página inicial](./screenshots/home.png)
 
 ---
 
-## 📂 Estrutura do projeto
+### ⚖️ Áreas de atuação
 
-```text
-gn-advocacia-especializada/
-│
-├── css/
-├── imagens/
-├── includes/
-├── pages/
-│
-├── index.php
-├── contato.php
-├── banco.sql
-└── README.md
-```
+![Áreas de atuação](./screenshots/areas-de-atuacao.png)
 
 ---
 
-## 💾 Banco de dados
+### 👨‍⚖️ Sobre o escritório
 
-A aplicação possui integração com **MySQL** através do PHP.
+![Sobre o escritório](./screenshots/sobre.png)
 
-O banco de dados é utilizado para armazenar, consultar e manipular as informações necessárias para o funcionamento da aplicação.
+---
 
-O arquivo `banco.sql` contém a estrutura do banco de dados utilizada no projeto.
+### 📞 Contato
+
+![Página de contato](./screenshots/contato.png)
+
+---
+
+### 📱 Versão responsiva
+
+#### Desktop
+
+![Desktop](./screenshots/desktop.png)
+
+#### Mobile
+
+![Mobile](./screenshots/mobile.png)
+
+---
+
+## 🎯 Objetivo do projeto
+
+O objetivo foi desenvolver uma solução web para um escritório de advocacia, aplicando conhecimentos de:
+
+- Desenvolvimento Front-end
+- Desenvolvimento Back-end
+- PHP
+- HTML5
+- CSS3
+- MySQL
+- Responsividade
+- Integração com banco de dados
+- Organização de projetos web
+
+---
+
+## 💻 Desenvolvimento
+
+Durante o desenvolvimento, foram trabalhados aspectos de **estruturação de páginas, estilização, responsividade, processamento de informações e integração com banco de dados**.
+
+O projeto foi pensado para proporcionar uma experiência visual profissional, mantendo uma navegação simples e objetiva.
 
 ---
 
 ## 📱 Responsividade
 
-O site foi desenvolvido para se adaptar a diferentes tamanhos de tela, proporcionando uma experiência adequada em diversos dispositivos.
+A interface foi desenvolvida para diferentes tamanhos de tela:
 
 - 💻 Desktop
 - 💻 Notebook
 - 📱 Smartphone
 - 📟 Tablet
-
----
-
-## 🚀 Como executar o projeto
-
-### 1. Clone o repositório
-
-```bash
-git clone SEU_LINK_DO_GITHUB
-```
-
-### 2. Acesse a pasta do projeto
-
-```bash
-cd gn-advocacia-especializada
-```
-
-### 3. Configure o banco de dados
-
-Crie um banco de dados **MySQL** no seu ambiente local.
-
-Depois, importe o arquivo:
-
-```text
-banco.sql
-```
-
-### 4. Configure a conexão
-
-Configure os dados de acesso ao banco no arquivo responsável pela conexão com o MySQL.
-
-Exemplo:
-
-```php
-$host = "localhost";
-$usuario = "seu_usuario";
-$senha = "sua_senha";
-$banco = "gn_advocacia";
-```
-
-> Não publique senhas ou credenciais reais no GitHub.
-
-### 5. Execute o projeto
-
-O projeto pode ser executado utilizando ferramentas como:
-
-- XAMPP
-- WAMP
-- Laragon
-
-Também é possível utilizar o servidor embutido do PHP:
-
-```bash
-php -S localhost:8000
-```
-
-Depois, acesse:
-
-```text
-http://localhost:8000
-```
-
----
-
-## 🎯 Objetivos do projeto
-
-- Desenvolver um site institucional profissional
-- Criar uma interface moderna e responsiva
-- Aplicar conhecimentos de HTML5 e CSS3
-- Desenvolver funcionalidades utilizando PHP
-- Integrar a aplicação com MySQL
-- Trabalhar com processamento e gerenciamento de dados
-- Praticar organização e estruturação de projetos web
-
----
-
-## 📚 Conhecimentos aplicados
-
-Durante o desenvolvimento deste projeto, foram aplicados conhecimentos em:
-
-- HTML5
-- CSS3
-- PHP
-- MySQL
-- Desenvolvimento Front-end
-- Desenvolvimento Back-end
-- Integração com banco de dados
-- Responsividade
-- Estruturação de aplicações web
-- Organização de código
-
----
-
-## 📸 Preview
-
-### 💻 Desktop
-
-![GN Advocacia Especializada - Desktop](./screenshots/desktop.png)
-
-### 📱 Mobile
-
-![GN Advocacia Especializada - Mobile](./screenshots/mobile.png)
-
----
-
-## 🔐 Segurança
-
-Para manter o projeto seguro, informações sensíveis não devem ser disponibilizadas no repositório público.
-
-Evite publicar:
-
-- Senhas
-- Credenciais do banco de dados
-- Chaves de API
-- Tokens
-- Dados pessoais
-- Informações confidenciais
-
-Utilize arquivos de configuração locais ou variáveis de ambiente quando necessário.
 
 ---
 
@@ -238,14 +132,8 @@ Desenvolvedor Web
 
 ---
 
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins de **portfólio e demonstração de conhecimentos em desenvolvimento web**.
-
----
-
 <p align="center">
   ⚖️ <strong>GN Advocacia Especializada</strong>
   <br><br>
-  Desenvolvido com 💻 por <strong>SEU NOME</strong>
+  Projeto desenvolvido como parte do meu portfólio de desenvolvimento web.
 </p>
