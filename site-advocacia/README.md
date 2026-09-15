@@ -1,40 +1,53 @@
-⚖️ Site de Advocacia
+⚖️ GN Advocacia Especializada
 
-Projeto de desenvolvimento de um site para escritório de advocacia, desenvolvido com PHP, HTML, CSS e banco de dados integrado.
+Site institucional desenvolvido para a GN Advocacia Especializada, com interface responsiva, back-end em PHP e integração com banco de dados.
 
-O projeto foi criado com foco em apresentar uma interface profissional, responsiva e intuitiva, além de implementar funcionalidades dinâmicas utilizando PHP e integração com banco de dados.
 
-Este projeto faz parte do meu portfólio de desenvolvimento web, demonstrando conhecimentos em desenvolvimento front-end, back-end e integração com banco de dados.
 
-🌐 Demonstração
 
-🔗 Site online: COLOQUE_AQUI_O_LINK_DO_SITE
 
-📸 Preview
 
-Adicione um screenshot do projeto na pasta screenshots e altere o caminho acima caso necessário.
+📌 Sobre o projeto
+
+O projeto GN Advocacia Especializada consiste no desenvolvimento de um site institucional para um escritório de advocacia.
+
+A aplicação foi desenvolvida com HTML5 e CSS3 na construção da interface e PHP no back-end, incluindo integração com banco de dados para gerenciamento e processamento de informações.
+
+O projeto foi desenvolvido com foco em:
+
+⚖️ Apresentação profissional do escritório
+
+🎨 Interface moderna e organizada
+
+📱 Responsividade
+
+🚀 Boa experiência de navegação
+
+🗄️ Integração com banco de dados
+
+🔧 Organização e manutenção do código
+
+Este projeto também faz parte do meu portfólio de desenvolvimento web, demonstrando conhecimentos em desenvolvimento front-end, back-end e banco de dados.
 
 ✨ Funcionalidades
 
-Página institucional do escritório
+🏢 Apresentação da GN Advocacia Especializada
 
-Apresentação das áreas de atuação
+⚖️ Apresentação das áreas de atuação
 
-Informações sobre o escritório
+👨‍⚖️ Informações sobre o escritório
 
-Seção de contato
+📞 Informações de contato
 
-Integração com banco de dados
+🗄️ Integração com banco de dados
 
-Processamento de informações utilizando PHP
+🔄 Processamento de informações utilizando PHP
 
-Layout responsivo
+📱 Layout responsivo
 
-Interface adaptada para diferentes tamanhos de tela
+🎨 Interface profissional
 
-Navegação entre páginas
-
-Estrutura organizada para facilitar manutenção e futuras melhorias
+🧭 Navegação intuitiva
 
 🛠️ Tecnologias utilizadas
 Front-end
@@ -51,34 +64,34 @@ Banco de dados
 
 Banco de dados integrado à aplicação
 
-Consultas e manipulação de dados através do PHP
+Caso você tenha utilizado MySQL, altere para MySQL nesta seção.
 
-Caso esteja utilizando MySQL, substitua esta seção por MySQL.
-
-🏗️ Arquitetura do projeto
+🏗️ Estrutura da aplicação
 
 A aplicação utiliza PHP para realizar a comunicação entre a interface do usuário e o banco de dados.
 
-De forma simplificada:
-
-Usuário
-   ↓
-Interface Web
-HTML + CSS
-   ↓
-PHP
-   ↓
-Banco de Dados
-   ↓
-PHP
-   ↓
-Interface Web
-
-
-Essa estrutura permite que informações sejam processadas de forma dinâmica, em vez de utilizar apenas conteúdo estático.
+        👤 Usuário
+            │
+            ▼
+   ┌─────────────────┐
+   │   HTML + CSS    │
+   │    Interface    │
+   └────────┬────────┘
+            │
+            ▼
+   ┌─────────────────┐
+   │       PHP       │
+   │ Lógica do site  │
+   └────────┬────────┘
+            │
+            ▼
+   ┌─────────────────┐
+   │ Banco de Dados  │
+   │ Armazenamento   │
+   └─────────────────┘
 
 📂 Estrutura do projeto
-site-advocacia/
+gn-advocacia-especializada/
 │
 ├── css/
 │   └── style.css
@@ -98,64 +111,63 @@ site-advocacia/
 └── README.md
 
 
-Ajuste a estrutura acima para corresponder às pastas e arquivos reais do seu projeto.
+Ajuste a estrutura acima conforme os arquivos reais do projeto.
 
 💾 Banco de dados
 
-O projeto possui integração com banco de dados através do PHP.
+O sistema possui integração com banco de dados através do PHP.
 
-A aplicação realiza a comunicação com o banco para armazenar, consultar e/ou manipular informações, tornando o sistema mais dinâmico.
+Essa integração permite que a aplicação trabalhe com informações de forma dinâmica, realizando operações de armazenamento, consulta e manipulação de dados.
 
-O arquivo SQL do projeto pode ser disponibilizado no repositório para facilitar a configuração do ambiente:
+O projeto pode incluir um arquivo SQL para facilitar a configuração do banco:
 
 banco.sql
 
-⚠️ Segurança
+🔐 Segurança
 
-Por motivos de segurança, senhas, credenciais, chaves ou informações sensíveis não devem ser disponibilizadas no repositório.
+Por segurança, informações sensíveis não devem ser disponibilizadas no GitHub, como:
 
-Caso seja necessário configurar a conexão com o banco de dados, utilize suas próprias credenciais no ambiente local.
+Senhas;
 
-📱 Responsividade
+Usuários do banco;
 
-O site foi desenvolvido para proporcionar uma boa experiência em diferentes dispositivos:
+Chaves de API;
 
-💻 Computadores
+Credenciais;
 
-📱 Smartphones
+Dados pessoais.
 
-📟 Tablets
-
-O layout se adapta a diferentes tamanhos de tela utilizando CSS.
+Essas informações devem ser configuradas localmente ou através de variáveis de ambiente.
 
 🚀 Como executar o projeto
 1. Clone o repositório
-git clone SEU_LINK_DO_GITHUB
+git clone SEU_LINK_DO_REPOSITORIO
 
-2. Entre na pasta do projeto
-cd site-advocacia
+2. Entre na pasta
+cd gn-advocacia-especializada
 
 3. Configure o banco de dados
 
-Crie um banco de dados no seu ambiente local e importe o arquivo:
+Crie o banco de dados no seu ambiente local e importe o arquivo:
 
 banco.sql
 
 
-Depois, configure as informações de conexão no arquivo responsável pela conexão com o banco de dados.
-
-Exemplo:
-
-$host = "localhost";
-$user = "seu_usuario";
-$password = "sua_senha";
-$database = "nome_do_banco";
+Depois, configure as credenciais de acesso no arquivo responsável pela conexão.
 
 4. Execute o projeto
 
-Como o projeto utiliza PHP, você pode executá-lo utilizando um ambiente como XAMPP, WAMP ou servidor PHP local.
+O projeto pode ser executado utilizando ferramentas como:
 
-Caso esteja utilizando o servidor embutido do PHP:
+XAMPP
+
+WAMP
+
+Laragon
+
+Servidor PHP
+
+Utilizando o servidor embutido do PHP:
 
 php -S localhost:8000
 
@@ -164,49 +176,43 @@ Depois, acesse:
 
 http://localhost:8000
 
-🎯 Objetivo do projeto
+📱 Responsividade
 
-O principal objetivo foi desenvolver uma solução web para um escritório de advocacia, combinando design, desenvolvimento front-end, back-end e banco de dados.
+O site foi desenvolvido para proporcionar uma experiência adequada em diferentes dispositivos.
 
-O projeto buscou proporcionar:
+Dispositivo	Suporte
+💻 Desktop	✅
+💻 Notebook	✅
+📱 Smartphone	✅
+📟 Tablet	✅
+🎯 Objetivo
 
-Apresentação profissional do escritório
+O objetivo do projeto foi desenvolver uma solução web profissional para a GN Advocacia Especializada, utilizando tecnologias fundamentais do desenvolvimento web.
 
-Facilidade de navegação
+Durante o desenvolvimento foram aplicados conceitos de:
 
-Boa experiência para o usuário
+Desenvolvimento Front-end
+
+Desenvolvimento Back-end
+
+PHP
+
+HTML5
+
+CSS3
+
+Banco de dados
 
 Responsividade
 
-Organização do código
+Organização de código
 
-Integração entre aplicação e banco de dados
+Estruturação de aplicações web
 
-📚 O que foi desenvolvido
+🖥️ Preview
+Desktop
 
-Durante o desenvolvimento deste projeto, foram aplicados conhecimentos de:
-
-Estruturação de páginas com HTML5
-
-Estilização utilizando CSS3
-
-Desenvolvimento back-end com PHP
-
-Integração entre PHP e banco de dados
-
-Manipulação e consulta de dados
-
-Desenvolvimento de interfaces responsivas
-
-Organização de arquivos e código
-
-Estruturação de um projeto web completo
-
-🔒 Observação sobre o projeto
-
-Este projeto é apresentado para fins de portfólio e demonstração de habilidades em desenvolvimento web.
-
-Caso o projeto tenha sido desenvolvido para um cliente real, informações confidenciais, credenciais e dados pessoais foram removidos ou devem ser mantidos fora do repositório público.
+Mobile
 
 👨‍💻 Desenvolvedor
 
@@ -214,8 +220,8 @@ SEU NOME
 
 Desenvolvedor Web
 
-GitHub: SEU_LINK_DO_GITHUB
+📄 Licença
 
-LinkedIn: SEU_LINK_DO_LINKEDIN
+Este projeto foi desenvolvido para fins de portfólio e demonstração de conhecimentos em desenvolvimento web.
 
-⭐ Gostou do projeto? Considere deixar uma estrela no repositório!
+<p align="center"> ⚖️ <strong>GN Advocacia Especializada</strong> <br> Desenvolvido com 💻 por <strong>Seu Nome</strong> </p>
