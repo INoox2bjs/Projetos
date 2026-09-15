@@ -51,7 +51,7 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 
 ### 🏠 Página inicial
 
-![Página inicial](./screenshots/home.png)
+![Página inicial](./screenshots/Screenshot_1.png)
 
 ---
 
