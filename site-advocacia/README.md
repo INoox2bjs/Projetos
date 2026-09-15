@@ -91,13 +91,13 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 
 ### 🔐 Painel administrativo
 
-![Painel administrativo](./screenshots/Screenshot_6.png)
+![Painel administrativo](./screenshots/Screenshot_5.png)
 
 ---
 
 ### 📂 Processos
 
-![Processos](./screenshots)
+![Processos](./screenshots/Screenshot_6.png)
 
 ---
 
