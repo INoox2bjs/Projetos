@@ -57,7 +57,7 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 
 ### ⚖️ Áreas de atuação
 
-![Áreas de atuação](./screenshots/https://github.com/INoox2bjs/Projetos/blob/main/site-advocacia/screenshots/Screenshot_2.png)
+![Áreas de atuação](./screenshots/Screenshot_2.png)
 
 ---
 
