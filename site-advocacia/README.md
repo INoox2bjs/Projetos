@@ -1,139 +1,221 @@
-⚖️ Site Institucional — Advocacia
+⚖️ Site de Advocacia
 
-Site institucional desenvolvido para uma empresa de advocacia, com foco em design profissional, credibilidade, responsividade e experiência do usuário.
+Projeto de desenvolvimento de um site para escritório de advocacia, desenvolvido com PHP, HTML, CSS e banco de dados integrado.
 
-O projeto foi desenvolvido como parte do meu portfólio para demonstrar minhas habilidades em desenvolvimento web, criação de interfaces e construção de sites institucionais.
+O projeto foi criado com foco em apresentar uma interface profissional, responsiva e intuitiva, além de implementar funcionalidades dinâmicas utilizando PHP e integração com banco de dados.
+
+Este projeto faz parte do meu portfólio de desenvolvimento web, demonstrando conhecimentos em desenvolvimento front-end, back-end e integração com banco de dados.
 
 🌐 Demonstração
 
-🔗 Site online: Acesse o projeto
+🔗 Site online: COLOQUE_AQUI_O_LINK_DO_SITE
 
 📸 Preview
 
-Substitua a imagem acima por um screenshot do site.
+Adicione um screenshot do projeto na pasta screenshots e altere o caminho acima caso necessário.
 
 ✨ Funcionalidades
 
-Design moderno e profissional
+Página institucional do escritório
 
-Layout totalmente responsivo
+Apresentação das áreas de atuação
 
-Adaptado para dispositivos móveis, tablets e desktops
+Informações sobre o escritório
 
-Seção de apresentação do escritório
+Seção de contato
 
-Áreas de atuação
+Integração com banco de dados
 
-Informações de contato
+Processamento de informações utilizando PHP
 
-Integração com WhatsApp
+Layout responsivo
 
-Navegação intuitiva
+Interface adaptada para diferentes tamanhos de tela
 
-Seção de localização
+Navegação entre páginas
 
-Animações e interações para melhorar a experiência do usuário
+Estrutura organizada para facilitar manutenção e futuras melhorias
 
 🛠️ Tecnologias utilizadas
+Front-end
 
 HTML5
 
 CSS3
 
-JavaScript
+Back-end
 
-[Adicione aqui outras tecnologias utilizadas]
+PHP
 
-📁 Estrutura do projeto
-/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
+Banco de dados
+
+Banco de dados integrado à aplicação
+
+Consultas e manipulação de dados através do PHP
+
+Caso esteja utilizando MySQL, substitua esta seção por MySQL.
+
+🏗️ Arquitetura do projeto
+
+A aplicação utiliza PHP para realizar a comunicação entre a interface do usuário e o banco de dados.
+
+De forma simplificada:
+
+Usuário
+   ↓
+Interface Web
+HTML + CSS
+   ↓
+PHP
+   ↓
+Banco de Dados
+   ↓
+PHP
+   ↓
+Interface Web
+
+
+Essa estrutura permite que informações sejam processadas de forma dinâmica, em vez de utilizar apenas conteúdo estático.
+
+📂 Estrutura do projeto
+site-advocacia/
+│
+├── css/
+│   └── style.css
+│
+├── imagens/
 │   └── ...
-├── package.json
+│
+├── includes/
+│   └── conexao.php
+│
+├── pages/
+│   └── ...
+│
+├── index.php
+├── contato.php
+├── banco.sql
 └── README.md
 
 
-A estrutura acima deve ser ajustada de acordo com a estrutura real do projeto.
+Ajuste a estrutura acima para corresponder às pastas e arquivos reais do seu projeto.
 
-🎯 Objetivo do projeto
+💾 Banco de dados
 
-O objetivo deste projeto foi desenvolver uma presença digital para um escritório de advocacia, priorizando:
+O projeto possui integração com banco de dados através do PHP.
 
-Credibilidade visual
+A aplicação realiza a comunicação com o banco para armazenar, consultar e/ou manipular informações, tornando o sistema mais dinâmico.
 
-Clareza das informações
+O arquivo SQL do projeto pode ser disponibilizado no repositório para facilitar a configuração do ambiente:
 
-Facilidade de contato
+banco.sql
 
-Responsividade
+⚠️ Segurança
 
-Boa experiência de navegação
+Por motivos de segurança, senhas, credenciais, chaves ou informações sensíveis não devem ser disponibilizadas no repositório.
 
-Organização e qualidade do código
-
-Além do resultado visual, o projeto faz parte do meu portfólio profissional, demonstrando minha capacidade de transformar uma necessidade de negócio em uma solução web funcional.
+Caso seja necessário configurar a conexão com o banco de dados, utilize suas próprias credenciais no ambiente local.
 
 📱 Responsividade
 
-O site foi desenvolvido pensando em diferentes tamanhos de tela, proporcionando uma experiência consistente em:
+O site foi desenvolvido para proporcionar uma boa experiência em diferentes dispositivos:
 
-💻 Desktop
+💻 Computadores
 
 📱 Smartphones
 
 📟 Tablets
 
+O layout se adapta a diferentes tamanhos de tela utilizando CSS.
+
 🚀 Como executar o projeto
-
-Clone o repositório:
-
+1. Clone o repositório
 git clone SEU_LINK_DO_GITHUB
 
+2. Entre na pasta do projeto
+cd site-advocacia
 
-Entre na pasta:
+3. Configure o banco de dados
 
-cd NOME_DO_PROJETO
+Crie um banco de dados no seu ambiente local e importe o arquivo:
 
-
-Instale as dependências:
-
-npm install
-
-
-Execute o projeto:
-
-npm run dev
+banco.sql
 
 
-Depois, acesse o endereço indicado pelo terminal.
+Depois, configure as informações de conexão no arquivo responsável pela conexão com o banco de dados.
 
-📌 Aprendizados
+Exemplo:
 
-Durante o desenvolvimento deste projeto, pude aprimorar conhecimentos relacionados a:
+$host = "localhost";
+$user = "seu_usuario";
+$password = "sua_senha";
+$database = "nome_do_banco";
+
+4. Execute o projeto
+
+Como o projeto utiliza PHP, você pode executá-lo utilizando um ambiente como XAMPP, WAMP ou servidor PHP local.
+
+Caso esteja utilizando o servidor embutido do PHP:
+
+php -S localhost:8000
+
+
+Depois, acesse:
+
+http://localhost:8000
+
+🎯 Objetivo do projeto
+
+O principal objetivo foi desenvolver uma solução web para um escritório de advocacia, combinando design, desenvolvimento front-end, back-end e banco de dados.
+
+O projeto buscou proporcionar:
+
+Apresentação profissional do escritório
+
+Facilidade de navegação
+
+Boa experiência para o usuário
+
+Responsividade
+
+Organização do código
+
+Integração entre aplicação e banco de dados
+
+📚 O que foi desenvolvido
+
+Durante o desenvolvimento deste projeto, foram aplicados conhecimentos de:
+
+Estruturação de páginas com HTML5
+
+Estilização utilizando CSS3
+
+Desenvolvimento back-end com PHP
+
+Integração entre PHP e banco de dados
+
+Manipulação e consulta de dados
 
 Desenvolvimento de interfaces responsivas
 
-Organização de componentes
+Organização de arquivos e código
 
-Criação de layouts institucionais
+Estruturação de um projeto web completo
 
-Experiência do usuário (UX)
+🔒 Observação sobre o projeto
 
-Design de interfaces (UI)
+Este projeto é apresentado para fins de portfólio e demonstração de habilidades em desenvolvimento web.
 
-Estruturação de projetos web
+Caso o projeto tenha sido desenvolvido para um cliente real, informações confidenciais, credenciais e dados pessoais foram removidos ou devem ser mantidos fora do repositório público.
 
-Boas práticas de desenvolvimento
-
-👨‍💻 Desenvolvido por
+👨‍💻 Desenvolvedor
 
 SEU NOME
 
 Desenvolvedor Web
 
-GitHub • LinkedIn
+GitHub: SEU_LINK_DO_GITHUB
 
-⭐ Se este projeto foi útil ou interessante para você, considere deixar uma estrela no repositório.
+LinkedIn: SEU_LINK_DO_LINKEDIN
+
+⭐ Gostou do projeto? Considere deixar uma estrela no repositório!
