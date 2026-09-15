@@ -1,14 +1,16 @@
 # ⚖️ GN Advocacia Especializada
 
-> Site institucional desenvolvido para a GN Advocacia Especializada, com interface responsiva, back-end em PHP e integração com banco de dados.
+> Site institucional desenvolvido para a GN Advocacia Especializada, com interface responsiva, back-end em PHP, integração com MySQL e funcionalidades voltadas ao atendimento e gerenciamento de processos.
 
 ---
 
 ## 📌 Sobre o projeto
 
-O **GN Advocacia Especializada** é um projeto de desenvolvimento web criado para apresentar a presença digital de um escritório de advocacia.
+O **GN Advocacia Especializada** é um projeto de desenvolvimento web criado para apresentar a presença digital de um escritório de advocacia e facilitar a comunicação com seus clientes.
 
 O projeto foi desenvolvido com foco em uma interface **profissional, moderna, responsiva e intuitiva**, proporcionando uma experiência adequada em diferentes dispositivos.
+
+Além da apresentação institucional, a aplicação possui funcionalidades como **agendamento de conversas, contato direto via WhatsApp e painel administrativo para acesso aos processos**.
 
 A aplicação utiliza **HTML5, CSS3, PHP e MySQL**, integrando front-end, back-end e banco de dados.
 
@@ -18,15 +20,24 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 
 ## ✨ Funcionalidades
 
+### 🌐 Área pública
+
 - ⚖️ Apresentação do escritório
 - 📋 Áreas de atuação
 - 👨‍⚖️ Informações profissionais
 - 📞 Informações de contato
-- 🗄️ Integração com banco de dados
-- 🔄 Processamento de informações com PHP
+- 📅 Agendamento de conversa
+- 💬 Contato direto via WhatsApp
 - 📱 Design responsivo
 - 🎨 Interface moderna e organizada
 - 🧭 Navegação intuitiva
+
+### 🔐 Área administrativa
+
+- 🔑 Acesso ao painel administrativo
+- 📂 Acesso aos processos
+- 📋 Visualização das informações dos processos
+- 🗄️ Integração com banco de dados
 
 ---
 
@@ -44,6 +55,11 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 ### Banco de dados
 
 - MySQL
+
+### Integrações
+
+- WhatsApp
+- Sistema de agendamento
 
 ---
 
@@ -67,15 +83,33 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 
 ---
 
-### 📞 Agendar conversa
+### 📅 Agendar conversa
 
 ![Agende uma conversa](./screenshots/Screenshot_4.png)
 
 ---
 
+### 💬 Fale Conosco
+
+![Fale Conosco](./screenshots/Screenshot_5.png)
+
+---
+
+### 🔐 Painel administrativo
+
+![Painel administrativo](./screenshots/Screenshot_6.png)
+
+---
+
+### 📂 Processos
+
+![Processos](./screenshots/Screenshot_7.png)
+
+---
+
 ## 🎯 Objetivo do projeto
 
-O objetivo foi desenvolver uma solução web para um escritório de advocacia, aplicando conhecimentos de:
+O objetivo foi desenvolver uma solução web completa para um escritório de advocacia, aplicando conhecimentos de:
 
 - Desenvolvimento Front-end
 - Desenvolvimento Back-end
@@ -85,15 +119,21 @@ O objetivo foi desenvolver uma solução web para um escritório de advocacia, a
 - MySQL
 - Responsividade
 - Integração com banco de dados
+- Agendamento de atendimento
+- Integração com WhatsApp
+- Desenvolvimento de painel administrativo
+- Gerenciamento e visualização de processos
 - Organização de projetos web
 
 ---
 
 ## 💻 Desenvolvimento
 
-Durante o desenvolvimento, foram trabalhados aspectos de **estruturação de páginas, estilização, responsividade, processamento de informações e integração com banco de dados**.
+Durante o desenvolvimento, foram trabalhados aspectos de **estruturação de páginas, estilização, responsividade, processamento de informações, integração com banco de dados e desenvolvimento de funcionalidades administrativas**.
 
-O projeto foi pensado para proporcionar uma experiência visual profissional, mantendo uma navegação simples e objetiva.
+O projeto foi pensado para proporcionar uma experiência visual profissional, mantendo uma navegação simples e objetiva para os usuários.
+
+Também foi desenvolvida uma **área administrativa**, permitindo o acesso restrito às informações dos processos cadastrados no sistema.
 
 ---
 
@@ -110,7 +150,7 @@ A interface foi desenvolvida para diferentes tamanhos de tela:
 
 ## 👨‍💻 Desenvolvedor
 
-**SEU NOME**
+**Igor Gonçalves Oliveira**
 
 Desenvolvedor Web
 
