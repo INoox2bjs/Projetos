@@ -73,18 +73,6 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 
 ---
 
-### 📱 Versão responsiva
-
-#### Desktop
-
-![Desktop](./screenshots/desktop.png)
-
-#### Mobile
-
-![Mobile](./screenshots/mobile.png)
-
----
-
 ## 🎯 Objetivo do projeto
 
 O objetivo foi desenvolver uma solução web para um escritório de advocacia, aplicando conhecimentos de:
