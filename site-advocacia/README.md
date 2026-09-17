@@ -66,9 +66,7 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 ## 📸 Demonstração
 
 ### 🏠 Página inicial
-
-![Página inicial](./screenshots/Screenshot_1.png)
-
+ 
 ---
 
 ### ⚖️ Áreas de atuação
