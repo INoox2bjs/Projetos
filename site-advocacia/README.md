@@ -121,6 +121,10 @@ O objetivo foi desenvolver uma solução web completa para um escritório de adv
 
 ---
 
+### 🌐 Link de acesso ao site - https://gn-advocaciaespecializada.great-site.net/?i=1
+
+---
+
 ## 💻 Desenvolvimento
 
 Durante o desenvolvimento, foram trabalhados aspectos de **estruturação de páginas, estilização, responsividade, processamento de informações, integração com banco de dados e desenvolvimento de funcionalidades administrativas**.
