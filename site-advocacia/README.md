@@ -1,4 +1,4 @@
-<img width="1280" height="904" alt="image" src="https://github.com/user-attachments/assets/f71a37ab-bf72-4b7b-9ca8-210ee6f662dd" /># ⚖️ GN Advocacia Especializada
+# ⚖️ GN Advocacia Especializada
 
 > Site institucional desenvolvido para a GN Advocacia Especializada, com interface responsiva, back-end em PHP, integração com MySQL e funcionalidades voltadas ao atendimento e gerenciamento de processos.
 
@@ -66,6 +66,8 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 ## 📸 Demonstração
 
 ### 🏠 Página inicial
+
+![Página Inicial](./screenshots/Screenshot_1.png)
  
 ---
 
