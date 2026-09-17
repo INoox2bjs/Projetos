@@ -67,8 +67,7 @@ Este projeto faz parte do meu **portfólio de desenvolvimento web**.
 
 ### 🏠 Página inicial
 
-![Página inicial](<img width="1280" height="904" alt="image" src="https://github.com/user-attachments/assets/ec0255ca-1b03-4e52-b533-7032ccc5ea3e" />
-)
+![Página inicial](./screenshots/Screenshot_1.png)
 
 ---
 
